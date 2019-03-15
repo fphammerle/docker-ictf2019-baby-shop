@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM debian:buster-slim
 
 COPY ./ld-2.28.so /home/baby_shop/
 COPY ./libc.so.6 /
